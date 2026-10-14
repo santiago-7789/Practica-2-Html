@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+
+<header>
+    <h1>Formulario de contacto</h1>
+</header>
+
+<body>
+   <label for="nombre">Nombre completo:</label>
+   <input type="text" id="nombre" name="nombre">
+   <br> <br>
+   <label for="correo">Correo electrónico:</label>
+   <input type="email" id="correo" name="correo">
+   <br> <br>
+    <label for="telefono">Número de teléfono:</label>
+    <input type="tel" id="telefono" name="telefono">
+    <br> <br>
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date" id="fecha" name="fecha">
+    <br> <br>
+    <label for="ciudad">Ciudad:</label> 
+    <select id="ciudad" name="ciudad">
+        <option value="ciudad1">Medellin</option>
+        <option value="ciudad2">Bogotá</option>
+        <option value="ciudad3">Cali</option>
+    </select>
+    <br> <br>
+    <label for="intereses">Intereses:</label>
+    <input type="checkbox" id="interes1" name="intereses" value="interes1"> Deporte
+    <input type="checkbox" id="interes2" name="intereses" value="interes2"> Música
+    <input type="checkbox" id="interes3" name="intereses" value="interes3"> Tecnología
+    <input type="checkbox" id="interes4" name="intereses" value="interes4"> Arte
+    <br> <br>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" cols="40" rows="5"></textarea>
+<br> <br>
+    
+    <form action="pepe" method="post">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
